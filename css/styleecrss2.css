@@ -1,0 +1,71 @@
+
+.dashbrdmaintbl1{
+                     border: 2px solid black;    width: 100%;   /* background-color: chartreuse;*/
+}
+.dashbrdmaintbl1trhd{
+            background-color: rgb(214, 236, 12);   height: 50px;
+
+}
+.dashbrdmaintbl1tr1{
+             background-color: rgb(9, 184, 88);   height: 40px;
+}
+.dashbrdmaintbl1tr2{
+             background-color: rgb(236, 19, 74);   
+}
+.dashbrdmaintbl1tr1th1{
+    text-align: center;
+    text-decoration: none;
+
+}
+.dashbrdmaintbl1tr1th2{
+    text-align: center;
+    text-decoration: none;
+
+}
+.dashbrdsubtbl1{
+     /* border: 2px solid black; */     width: 100%;    background-color: rgb(67, 241, 241);
+}
+.dashbrdsubtbl2{
+    /* border: 2px solid black;  */     width: 100%;    background-color: rgb(99, 210, 230);
+}
+.dashbrdmaintbl1tr1td1{
+        text-align: center;         padding: 10px;      text-decoration: none;
+}
+.dashbrdmaintbl1tr1td2{
+        text-align: center;         padding: 10px;      text-decoration: none;
+
+}
+.dashbrdsubtbl1tr1td1{
+        text-align: center;         padding: 10px;      text-decoration: none;
+}
+
+.dashbrdsubtbl1tr1td2{
+        text-align: center;         padding: 10px;      text-decoration: none;
+}
+
+
+
+
+.button {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(20, 14, 14);
+    background-color: #deeceb;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #f6faf7}
+  
+  .button:active {
+    background-color: #b1beb1;
+    box-shadow: 0 5px rgb(155, 146, 146);
+    transform: translateY(4px);
+  }
+  

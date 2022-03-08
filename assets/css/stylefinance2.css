@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {    /* The image used */
+    background-image: url("../img/2.jpg");    /* Full height */    height: 100%; 
+    /* Center and scale the image nicely */    background-position: center;    background-repeat: no-repeat;    background-size: cover;
+}
+input[type="text"]{
+ /*   margin: 15px 0px; */
+    padding: 7px 10px;	box-sizing: border-box;	background-color:   #e0e0bc;
+/*	background: radial-gradient(#99ccff 60%, #ffccff 15%, #66ff33 25%);
+ background: linear-gradient(gray 60%, #ffccff 15%, #66ff33 25%);
+	background-color:   #e0e0bc; #a4da35;	 yellow green similar	#a4da35 */
+	border: none;	width: 80%;	color: darkblue;	font-size: 16px;	font-weight: bold;	height: 35px;
+}
+input[type="text"]:hover {
+	background-color: silver;	color: darkolivegreen;	height:36px;	align-content: center;
+}
+input[type="text"]:focus {
+    background-color: whitesmoke;	color: darkviolet;	height: 38px;
+}
+
+input[type="list"]{
+ /*   margin: 15px 0px; */
+    padding: 7px 10px;	box-sizing: border-box;	background-color: #67e42c;	border: none;	width: 95%;	color: darkblue;
+	font-size: 16px;	font-weight: bold;	height: 35px;
+	}
+input[type="list"]:hover {
+	background-color: silver;	color: darkolivegreen;	height:36px;	align-content: center;
+	}
+input[type="list"]:focus {
+    background-color: whitesmoke;	color: darkviolet;	height: 38px;
+}
+
+select{
+ /*   margin: 15px 0px; */
+    padding: 7px 10px;	box-sizing: border-box;	background-color: #a4da35;  		/* yellow green similar	#a4da35 */
+	border: none;	width: 80%;	color: darkblue;	font-size: 16px;	font-weight: bold;	height: 35px;
+}
+select:hover {
+	background-color: silver;	color: darkolivegreen;	height:36px;	align-content: center;
+}
+select:focus {
+    background-color: whitesmoke;	color: darkviolet;	height: 38px;
+}
+
+.lftdiv {
+    margin: 10% 1% 1% 1%;    width: 15%;	height:auto;    border: 3px solid #73AD21;    padding: 1px;
+	background-color: #181818; 	opacity: 1;	float: left;
+				/*	background-image: url("../img/w11.jpg");	*/	
+}
+.rgtdiv {
+    margin: 1% 1% 3% 0;    width: 80%;	height: 80%;    padding: 1px;	opacity: 0.8;	float: right;
+	/*  border: 3px solid #73AD21; */
+}
+.centdiv {
+     width: 100%; height:91%;    border: 2px solid #73AD21;  /*	background-color: black; opacity: 0.6;*/ overflow-y: scroll;
+/*	background-image: url("../img/w11.jpg"); 			margin: auto;  						*/
+	}
+.centdivm {
+     width: 100%; height:91%;    border: 1px solid #73AD21;    	background-color: black; opacity: 1; overflow-y: scroll;
+/*	background-image: url("../img/w11.jpg"); 			margin: auto;  						*/
+	}	
+.outpt{
+    margin: 8% 8% 8% 10%;    width: 80%;  /*  border: 3px solid #73AD21; */   padding: 1px;		background-color: black; 	 color:white;
+	}
+.outpt2{
+    margin: 1% 1% 1% 1%;  /*  border: 3px solid #73AD21; */   padding: 1px;		background-color: black; 	 color:white;
+	}
+.outptupdt{
+    margin: auto;    width: 93%;  /*  border: 3px solid #73AD21; */   padding: 1px;		background-color: black; 	 color:white;
+	}
+.outptupdtres{
+    margin: auto;  			  width: 93%;  /*  border: 3px solid #73AD21; */   padding: 1px;		background-color: black; 	 color:white;
+	position: relative;		  max-height:80%;		height:500px; 	overflow-y: scroll;			overflow-x: hidden;
+	}	
+.outptupdtreshd{
+    margin: auto;  			  width: 93%;  /*  border: 3px solid #73AD21; */    padding: 1px;		background-color: black; 	 color:white;
+	position: relative;		  max-height:10%;	/*	height:50px; */				overflow-y: scroll;	overflow-x: hidden; 
+	display:none;
+	}		
+tr{
+ color: white; height:40px;
+}
+tr:hover { background-color : darkolivegreen; height:40px; }
+td {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+}
+label {	margin: 1% 1% 1% 10%;	}
+.odtr{ background-color:DimGray;color:white; }
+.evntr{ background-color:DarkSlateGray;color:white; }
+
+td:hover { 
+	background-color : lightseagreen; color:navy;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-style: oblique;	
+}
+#bg-textupdsts { color:cyan; margin: 10% 1% 1% 1%; font-size:40px;  opacity:0.4; transform:rotate(330deg); -webkit-transform:rotate(330deg); }
+#bg-textupdprjl { color:cyan; margin: 10% 1% 1% 1%; font-size:40px;  opacity:0.4; transform:rotate(330deg); -webkit-transform:rotate(330deg); }
+
+/*
+.ui-datepicker {
+    background: red;
+    border: 1px solid #555;
+    color: blue;
+}	*/

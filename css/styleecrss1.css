@@ -1,0 +1,53 @@
+
+.hdtbl{
+        border: 2px solid black;    width: 100%;    
+}
+
+.irlogoimg {
+    height:125px;   width:125px;
+}
+
+.hdtbltr1th{
+    align:center;  background-color: chartreuse;
+}
+
+.hding {
+    font-size:36px; color:red; 
+}
+
+
+.bdtbl{
+    border: 2px solid black;    width: 100%;    
+}
+
+.bdtbltr1td{
+    align:center;  background-color: rgb(238, 255, 0);
+}
+
+.text-centre{
+    text-align: center; font-size: 20px; color: crimson;
+}
+
+.bdtbltr2td{
+    align:center;  background-color: rgb(0, 217, 255);
+}
+
+.weltbl{
+    border: 2px solid rgb(158, 72, 105);    width: 100%;    
+}
+
+.weltbltr1td1{
+    /* border: 2px solid  rgb(158, 72, 105); */   width: 24%;    text-align: right;
+}
+
+.weltbltr1td2{
+    /* border: 2px solid rgb(158, 72, 105);   */   width: 24%;   text-align: left; 
+}
+
+.weltbltr1td3{
+    /* border: 2px solid rgb(158, 72, 105);    */    width: 24%;    text-align: center;
+}
+
+.weltbltr1td4{
+    /* border: 2px solid rgb(158, 72, 105);    */    width: 24%;    text-align: right;
+}

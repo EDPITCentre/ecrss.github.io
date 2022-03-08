@@ -1,0 +1,9 @@
+
+.para1{
+    /* border: 2px solid black; */     width: 100%;    background-color: rgb(67, 241, 241);
+    text-align:center; font-size:50px;
+}
+.para2{
+    /* border: 2px solid black; */     width: 100%;    background-color: rgb(67, 241, 241);
+    text-align:center; font-size:30px;
+}
